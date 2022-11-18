@@ -1,0 +1,20 @@
+:root {
+  --var-black: #2A2B2A;
+  --var-blueText: rgb(112, 200, 237);
+  --var-blueBack: #5386E4;
+  --var-lightText: rgb(255, 255, 255);
+}
+
+body {
+  background-color: var(--var-black);
+  color: var(--var-blueText);
+}
+
+.active1 {
+  background: var(--var-lightText);
+  color: var(--var-lightText)
+}
+
+.colour-black {
+  color:var(--var-black);
+}
