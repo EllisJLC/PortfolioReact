@@ -5,3 +5,4 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/page.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+

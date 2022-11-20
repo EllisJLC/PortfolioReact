@@ -1,9 +1,5 @@
 import React from 'react';
 import image from "../resources/logoJLC.png"
-// import Navbar from './Navbar';
-
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 
 const styles = {
   navbarStyle: {
@@ -25,24 +21,21 @@ const styles = {
   headerLink: {
     display: "flex",
     color: "#2A2B2A"
-  }
+  },
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
   
   return (
-    <section style={styles.setStyle}>
+    <section style={styles.setStyle} id="navbarHeader">
       <ul className="nav nav-tabs" style={styles.headerStyle}>
       <li className="nav-item">
           <a
             href="/"
             onClick={() => handlePageChange('Home')}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className='nav-link active1' style={styles.headerLink}
           >
-            <img src={image} alt="JLC Logo" style={styles.imgStyle}/>
-            Welcome!
+            Jia Liang Chen
           </a>
         </li>
       </ul>
@@ -51,8 +44,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === 'Home' ? 'nav-link active1' : 'nav-link colour-black'}
           >
             Home
@@ -62,7 +53,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
-            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'About' ? 'nav-link active1' : 'nav-link colour-black'}
           >
             About
@@ -81,10 +71,18 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
-            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'Contact' ? 'nav-link active1' : 'nav-link colour-black'}
           >
             Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active1' : 'nav-link colour-black'}
+          >
+            Resume
           </a>
         </li>
       </ul>
@@ -93,64 +91,3 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 export default NavTabs;
-
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
-
-// import {
-//   AppstoreOutlined,
-//   ContainerOutlined,
-//   DesktopOutlined,
-//   MailOutlined,
-//   MenuFoldOutlined,
-//   MenuUnfoldOutlined,
-//   PieChartOutlined,
-// } from '@ant-design/icons';
-// import { Button, Menu } from 'antd';
-// import React, { useState } from 'react';
-// function getItem(label, key, icon, children, type) {
-//   return {
-//     key,
-//     icon,
-//     children,
-//     label,
-//     type,
-//   };
-// }
-// const items = [
-//   getItem('Option 1', '1', <PieChartOutlined />),
-//   getItem('Option 2', '2', <DesktopOutlined />),
-//   getItem('Option 3', '3', <ContainerOutlined />),
-// ];
-// const NavTabs = () => {
-//   const [collapsed, setCollapsed] = useState(false);
-//   const toggleCollapsed = () => {
-//     setCollapsed(!collapsed);
-//   };
-//   return (
-//     <div
-//       style={{
-//         width: 256,
-//       }}
-//     >
-//       <Button
-//         type="primary"
-//         onClick={toggleCollapsed}
-//         style={{
-//           marginBottom: 16,
-//         }}
-//       >
-//         {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-//       </Button>
-//       <Menu
-//         defaultSelectedKeys={['1']}
-//         defaultOpenKeys={['sub1']}
-//         mode="inline"
-//         theme="dark"
-//         inlineCollapsed={collapsed}
-//         items={items}
-//       />
-//     </div>
-//   );
-// };
-// export default NavTabs;

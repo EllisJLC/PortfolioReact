@@ -1,0 +1,21 @@
+.preview {
+  max-width: 400px;
+}
+
+#projectList {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.project:hover img {
+  animation: pulse;
+  animation-duration: 1s;
+}
