@@ -18,3 +18,12 @@ body {
 .colour-black {
   color:var(--var-black);
 }
+
+ul, li, p, h1, h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  padding-top: 20px;
+}
