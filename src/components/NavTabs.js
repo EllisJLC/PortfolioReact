@@ -1,5 +1,4 @@
 import React from 'react';
-import image from "../resources/logoJLC.png"
 
 const styles = {
   navbarStyle: {
@@ -20,7 +19,7 @@ const styles = {
   },
   headerLink: {
     display: "flex",
-    color: "#2A2B2A"
+    color: "#2A2B2A",
   },
 };
 
@@ -28,18 +27,18 @@ function NavTabs({ currentPage, handlePageChange }) {
   
   return (
     <section style={styles.setStyle} id="navbarHeader">
-      <ul className="nav nav-tabs" style={styles.headerStyle}>
-      <li className="nav-item">
-          <a
-            href="/"
-            onClick={() => handlePageChange('Home')}
-            className='nav-link active1' style={styles.headerLink}
-          >
-            Jia Liang Chen
-          </a>
-        </li>
-      </ul>
       <ul className="nav nav-tabs" style={styles.navbarStyle}>
+        <div className='d-flex'>
+          <li className="nav-item">
+              <a
+                href="/"
+                onClick={() => handlePageChange('Home')}
+                className='nav-link active1' style={styles.headerLink}
+              >
+                Jia Liang Chen
+              </a>
+          </li>
+          </div>
         <li className="nav-item">
           <a
             href="#home"
