@@ -13,7 +13,7 @@ const styles = {
     flexdirection: "row",
   },
   imgStyle: {
-    maxWidth: "19px",
+    maxWidth: "1.188rem",
     display: "flex",
     flexdirection: "row",
   },
@@ -24,19 +24,11 @@ const styles = {
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
-  
   return (
     <section style={styles.setStyle} id="navbarHeader">
       <ul className="nav nav-tabs" style={styles.navbarStyle}>
         <div className='d-flex'>
           <li className="nav-item">
-              <a
-                href="/"
-                onClick={() => handlePageChange('Home')}
-                className='nav-link active1' style={styles.headerLink}
-              >
-                Jia Liang Chen
-              </a>
           </li>
           </div>
         <li className="nav-item">
@@ -45,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange('Home')}
             className={currentPage === 'Home' ? 'nav-link active1' : 'nav-link colour-black'}
           >
-            Home
+            Jia Liang Chen
           </a>
         </li>
         <li className="nav-item">

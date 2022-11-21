@@ -20,12 +20,12 @@ body {
 }
 
 ul, li, h1, h3{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 footer {
@@ -34,13 +34,9 @@ footer {
   right:0;
 }
 
-.content-container {
-  min-height: calc(100vh-34px)
-}
-
 button {
-  max-width: 200px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  max-width: 12.5rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0.625rem;
 }

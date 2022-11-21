@@ -13,7 +13,7 @@ const styles = {
     background: 'red',
   },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: '6.25rem',
   },
 };
 

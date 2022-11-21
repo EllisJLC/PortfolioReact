@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../styles/Resume.css'
 
 export default function Resume() {
   return (
-    <div>
+    <section id='resume'>
       <h1>Resume</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
@@ -17,6 +18,6 @@ export default function Resume() {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
-    </div>
+    </section>
   );
 }

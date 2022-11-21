@@ -8,19 +8,19 @@
 #mainLabel1 {
   animation: fadeIn;
   animation-duration: 2s;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   font-family: "Poiret One", Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 4.375rem;
 }
 
 #mainLabel2 {
   animation: fadeIn;
   animation-duration: 8s;
   --animate-delay: 10s;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   font-family: "Indie Flower", Georgia, 'Times New Roman', Times, serif
 }
 
@@ -28,7 +28,7 @@ h3 {
   animation: fadeIn;
   animation-duration: 13s;
   --animate-delay: 10s;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   font-weight: bolder;
   font-family: "Prompt", Georgia, 'Times New Roman', Times, serif
 }
@@ -37,6 +37,6 @@ h3 {
   animation: fadeIn;
   animation-duration: 18s;
   --animate-delay: 10s;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   font-family: "Consolas", Georgia, 'Times New Roman', Times, serif
 }

@@ -1,5 +1,5 @@
 .preview {
-  max-width: 400px;
+  max-width: 25rem;
 }
 
 #projectList {
@@ -7,13 +7,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 .project:hover img {
@@ -24,12 +24,12 @@
 .image-label {
   display:block;
   position: relative;
-  margin-top: -100px;
+  margin-top: -6.25rem;
   z-index: -1;
   text-decoration: none;
   color: black;
-  width: 40px;
-  margin-left: 180px; 
+  width: 2.5rem;
+  margin-left: 11.25rem; 
 }
 
 .project:hover .image-label {

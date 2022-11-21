@@ -12,7 +12,7 @@ const styles = {
     textAlign: "center",
   },
   github: {
-    fontSize: "40px",
+    fontSize: "2.5rem",
   }
 }
 

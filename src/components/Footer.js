@@ -5,17 +5,21 @@ const styles = {
   footer: {
     backgroundColor: "#5386E4",
     color: "#2A2B2A",
-    height: "150px",
-    paddingTop: "30px",
+    height: "9.375rem",
   },
-  label: {
+  label1: {
     textAlign: 'center',
-    paddingBottom: "10px",
+    paddingBottom: "0.625rem",
+    paddingTop: "2rem"
+  },
+  label2: {
+    textAlign: 'center',
+    paddingBottom: "0.625rem",
   },
   link: {
     color: "#2A2B2A",
     textDecoration: "none",
-    paddingRight: "10px"
+    paddingRight: "0.625rem"
   }
 }
 
@@ -23,8 +27,8 @@ const styles = {
 export default function Footer() {
   return (
     <MDBFooter style={styles.footer} className='text-center text-lg-start'>
-      <h4 style={styles.label}>Made using React by Jia Liang Chen</h4>
-      <h4 style={styles.label}>
+      <h4 style={styles.label1}>Made using React by Jia Liang Chen</h4>
+      <h4 style={styles.label2}>
         <a href='https://github.com/EllisJLC' style={styles.link}><i className='fa fa-github'></i></a> 
         <a href='https://www.linkedin.com/in/jia-liang-ellison-chen/' style={styles.link}><i className='fa fa-linkedin'></i></a> 
         <a><i className='fa fa-twitch'></i></a>
