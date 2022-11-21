@@ -1,22 +1,69 @@
+import { useState } from 'react';
 import React from 'react';
+import { toast } from 'react-toastify';
+
 
 export default function Contact() {
+  
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => { // handle submission form, currently no back end to send to.
+    e.preventDefault();
+    try {
+      toast.success("Thank you!");
+    } catch (error) {
+      toast.error(error)
+    }
+  }
+
+  const styles = {
+    required: {
+      marginLeft: "10px"
+    }
+  }
+
   return (
     <div>
       <h1>Contact</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <form className="form-group py-4">
+        <div className='form-group p-2'>
+          <small><label className='text-muted'>Name*</label></small>
+          <input 
+            value = {username}
+            onChange = {(e) => setUsername(e.target.value)}
+            type='text'
+            className='form-control' 
+            placeholder='Enter name'
+          />
+        </div>
+        <div className='form-group p-2'>
+            <small><label className='text-muted'>Email address*</label></small>
+            <input 
+            value = {email}
+            onChange = {(e) => setEmail(e.target.value)}
+            type='email'
+            className='form-control' 
+            placeholder='Enter email'
+            />
+        </div>
+        <div className='form-group p-2'>
+            <small><label className='text-muted' id='msgbox'>Message*</label></small>
+            <input 
+            value = {message}
+            onChange = {(e) => setMessage(e.target.value)}
+            type='text'
+            className='form-control' 
+            placeholder='Enter message'
+            />
+        </div>
+        <small><label className='text-muted' style={styles.required}>*Required fields</label></small>
+        <br/>
+        {(<button disabled={!email||!username||!message} className="btn btn-primary col-12" onSubmit={handleSubmit}>
+          Submit!
+        </button>)}
+      </form>
     </div>
   );
 }
