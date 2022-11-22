@@ -9,7 +9,7 @@ import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
-  const renderPage = () => {
+  const RenderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
     }
@@ -30,7 +30,7 @@ export default function PortfolioContainer() {
   return (
     <div className='content-container'>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
-      {renderPage()}
+      <RenderPage/>
       <Footer/>
     </div>
   );

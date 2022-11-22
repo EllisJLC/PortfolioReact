@@ -1,11 +1,19 @@
 import React from 'react';
+import '../../styles/About.css'
+
+const styles = {
+  paragraphs: {
+    marginLeft: "4.5rem",
+    marginRight: "4.5rem",
+  }
+}
 
 export default function About() {
   return (
     <div>
-      <h1>My Journey</h1>
+      <h1 className='titleLabel1'>My Journey</h1>
       <br/>
-      <p>
+      <p style={styles.paragraphs}>
         My name is Jia Liang (Ellison) Chen and I am a web developer! My journey of developing software has been long 
         and eventful, starting with C# in the 10th grade. I understood none of it and refused to go back to development...<br/>
         <br/>
@@ -23,10 +31,16 @@ export default function About() {
         with open arms!
       </p>
       <br/>
-      <h1>My Hobbies</h1>
+      <h1 className='titleLabel1'>My Hobbies</h1>
       <br/>
-      <p>
-        
+      <p style={styles.paragraphs}>
+        Video gaming has been a major interest of mine, even streaming and enjoying all genres of games with the small community I had built.
+        <br/><br/>
+        I enjoy socializing and meeting new people through all mediums, whether it be online, or in person, so feel free to say hello!
+        <br/><br/>
+        I find myself singing along to some music though am very shy about singing in front of others!
+        <br/><br/>
+        Open to new things to do!
       </p>
     </div>
   );

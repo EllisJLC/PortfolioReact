@@ -1,22 +1,23 @@
 import React from 'react';
+import '../../styles/Resume.css'
+import resume from '../../assets/Resume.pdf'
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <section id='resume1' >
+      <h1 className='titleLabel2'>Resume - Key Skills</h1>
+      <ul className='resumeText'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Web APIs</li>
+        <li>Third Party APIs</li>
+        <li>Server-side APIs</li>
+        <li>Object-Oriented Programming</li>
+        <li>SQL</li>
+        <li>MERN Stack: MongoDb, Express.js, React, Node.js</li>
+      </ul>
+      <p className='resumeText'>Download my full resume <a href={resume} download>here</a>!</p>
+    </section>
   );
 }
