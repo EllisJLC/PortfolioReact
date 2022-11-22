@@ -20,14 +20,18 @@ export default function Contact() {
 
   const styles = {
     required: {
-      marginLeft: "10px"
+      marginLeft: "0.625rem",
+    },
+    form: {
+      marginLeft: "4.5rem",
+      marginRight: "4.5rem",
     }
   }
 
   return (
     <div>
-      <h1>Contact</h1>
-      <form className="form-group py-4">
+      <h1 className='titleLabel2'>Contact</h1>
+      <form className="form-group py-4" style={styles.form}>
         <div className='form-group p-2'>
           <small><label className='text-muted'>Name*</label></small>
           <input 

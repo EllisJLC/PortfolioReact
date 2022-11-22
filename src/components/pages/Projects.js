@@ -19,10 +19,11 @@ const styles = {
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className='titleLabel1'>Projects</h1>
       <section id='projectList'>
         {/* Project 1 */}
         <div className='project' style={styles.label}>
+          <p>News Aggregator</p>
           <a href='https://honsumal.github.io/news-headline-aggregator/' target="_blank">
             <img src={news_agg} className="preview" alt='Preview of News Aggregator'/>
           </a>
@@ -32,6 +33,7 @@ export default function Projects() {
         </div>
         {/* Project 2 */}
         <div className='project' style={styles.label}>
+          <p>Coming soon!</p>
           <a href='#' target="_blank">
             <img src={project3} className="preview" alt='Preview of password generator app'/>
           </a>
@@ -41,6 +43,7 @@ export default function Projects() {
         </div>
         {/* Project 3 */}
         <div className='project' style={styles.label}>
+          <p>Pet Adoption Site</p>
           <a href='https://petplace2141.herokuapp.com/' target="_blank">
             <img src={pet} className="preview" alt='Preview of pet adoption site'/>
           </a>
@@ -50,6 +53,7 @@ export default function Projects() {
         </div>
         {/* Project 4 */}
         <div className='project' style={styles.label}>
+          <p>Weather Forecast App</p>
           <a href='https://ellisjlc.github.io/Weather_Forecast/' target="_blank">
             <img src={weather} className="preview" alt='Preview of Weather Forecast app'/>
           </a>
@@ -59,6 +63,7 @@ export default function Projects() {
         </div>
         {/* Project 5 */}
         <div className='project' style={styles.label}>
+          <p>CSS Cheatsheet</p>
           <a href='https://ellisjlc.github.io/CSS_Guide/' target="_blank">
             <img src={css_sheet} className="preview" alt='Preview of CSS cheatsheet'/>
           </a>
@@ -68,6 +73,7 @@ export default function Projects() {
         </div>
         {/* Project 6 */}
         <div className='project' style={styles.label}>
+          <p>Password Generator</p>
           <a href='https://ellisjlc.github.io/Password_Generator/' target="_blank">
             <img src={pwgen} className="preview" alt='Preview of password generator app'/>
           </a>
