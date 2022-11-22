@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.4e881694.css",
-    "main.js": "/portfolio2/static/js/main.d93931af.js",
-    "static/media/Pet.png": "/portfolio2/static/media/Pet.bc3c93734198e31eac05.png",
-    "static/media/News_Agg.png": "/portfolio2/static/media/News_Agg.cbd58e32f4de22515bea.png",
-    "static/media/CSS_Sheet.png": "/portfolio2/static/media/CSS_Sheet.0749b013ba01fa6e5853.png",
-    "static/media/Portrait.png": "/portfolio2/static/media/Portrait.1e8c18b62cf9487ecfcd.png",
-    "static/media/Resume.pdf": "/portfolio2/static/media/Resume.620ed59289aaf13a6318.pdf",
-    "static/media/Weather.png": "/portfolio2/static/media/Weather.951b84ac4b0570fbdeb4.png",
-    "static/media/PWGen.png": "/portfolio2/static/media/PWGen.6df5b2f1258728994dac.png",
-    "static/media/Project3.png": "/portfolio2/static/media/Project3.5d0430d440f6be2800d2.png",
-    "index.html": "/portfolio2/index.html",
-    "main.4e881694.css.map": "/portfolio2/static/css/main.4e881694.css.map",
-    "main.d93931af.js.map": "/portfolio2/static/js/main.d93931af.js.map"
+    "main.css": "/Portfolio2/static/css/main.c2716f74.css",
+    "main.js": "/Portfolio2/static/js/main.dd57bf42.js",
+    "static/media/Pet.png": "/Portfolio2/static/media/Pet.bc3c93734198e31eac05.png",
+    "static/media/News_Agg.png": "/Portfolio2/static/media/News_Agg.cbd58e32f4de22515bea.png",
+    "static/media/CSS_Sheet.png": "/Portfolio2/static/media/CSS_Sheet.0749b013ba01fa6e5853.png",
+    "static/media/Portrait.png": "/Portfolio2/static/media/Portrait.1e8c18b62cf9487ecfcd.png",
+    "static/media/Resume.pdf": "/Portfolio2/static/media/Resume.620ed59289aaf13a6318.pdf",
+    "static/media/Weather.png": "/Portfolio2/static/media/Weather.951b84ac4b0570fbdeb4.png",
+    "static/media/PWGen.png": "/Portfolio2/static/media/PWGen.6df5b2f1258728994dac.png",
+    "static/media/Project3.png": "/Portfolio2/static/media/Project3.5d0430d440f6be2800d2.png",
+    "index.html": "/Portfolio2/index.html",
+    "main.c2716f74.css.map": "/Portfolio2/static/css/main.c2716f74.css.map",
+    "main.dd57bf42.js.map": "/Portfolio2/static/js/main.dd57bf42.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e881694.css",
-    "static/js/main.d93931af.js"
+    "static/css/main.c2716f74.css",
+    "static/js/main.dd57bf42.js"
   ]
 }
