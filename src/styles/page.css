@@ -8,6 +8,9 @@
 body {
   background-color: var(--var-black);
   color: var(--var-blueText);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .active1 {
@@ -37,8 +40,7 @@ h1 {
 }
 
 footer {
-  position: relative;
-  top:74px
+  margin-top: auto;
 }
 
 button {
