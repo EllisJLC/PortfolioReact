@@ -1,0 +1,11 @@
+footer {
+  background-color: white;
+}
+
+@media (min-height:41.25) {
+  footer {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
