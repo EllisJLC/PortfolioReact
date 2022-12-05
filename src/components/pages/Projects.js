@@ -10,6 +10,9 @@ import pwgen from '../../assets/PWGen.png';
 const styles = {
   label: {
     textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    padding: "3.125rem"
   },
   github: {
     fontSize: "2.5rem",
@@ -68,7 +71,7 @@ export default function Projects() {
       <section id='projectList'>
         {/* JS Projects Display */}
         { JSProjects.map((project) => (
-          <div className='project' style={styles.label} key={project.name}>
+          <div style={styles.label} key={project.name}>
             <p>{project.name}</p>
             <a href={project.link} target="_blank" rel="noreferrer">
               <img src={project.preview} className="preview" alt={"Preview of "+project.name}/>

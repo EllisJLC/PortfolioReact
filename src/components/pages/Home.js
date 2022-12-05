@@ -23,7 +23,7 @@ export default function Home() {
     <div className="container row">
         <div className="col-9">
           <h1 id='mainLabel1' style={styles.mainHeader} className='titleLabel'>Jia Liang Chen</h1>
-          <h3 id='mainLabel2' style={styles.secondaryHeader}>Digital artist (Kinda)</h3>
+          <h3 id='mainLabel2' style={styles.secondaryHeader}>Digital artist</h3>
           <h3 id='mainLabel3' style={styles.secondaryHeader}>Game Enthusiast</h3>
           <h3 id='mainLabel4' style={styles.secondaryHeader}>Web Developer</h3>
         </div>
