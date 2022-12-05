@@ -1,17 +1,19 @@
 import React from 'react';
-import '../../styles/About.css'
 
 const styles = {
   paragraphs: {
     marginLeft: "4.5rem",
     marginRight: "4.5rem",
+  },
+  titleLabel: {
+    paddingLeft: "4rem"
   }
 }
 
 export default function About() {
   return (
     <div>
-      <h1 className='titleLabel1'>My Journey</h1>
+      <h1 style={styles.titleLabel}>My Journey</h1>
       <br/>
       <p style={styles.paragraphs}>
         My name is Jia Liang (Ellison) Chen and I am a web developer! My journey of developing software has been long 

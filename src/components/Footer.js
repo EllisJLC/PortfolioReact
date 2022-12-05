@@ -6,6 +6,7 @@ const styles = {
     backgroundColor: "#5386E4",
     color: "#2A2B2A",
     height: "9.375rem",
+    marginTop: "auto"
   },
   label1: {
     textAlign: 'center',

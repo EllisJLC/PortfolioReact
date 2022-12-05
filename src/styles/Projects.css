@@ -10,12 +10,6 @@
   padding-bottom: 3.125rem;
 }
 
-.project {
-  display: flex;
-  flex-direction: column;
-  padding: 3.125rem;
-}
-
 .project:hover img {
   animation: pulse;
   animation-duration: 1s;

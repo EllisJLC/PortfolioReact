@@ -1,6 +1,4 @@
 body {
-  background-color: var(--var-black);
-  color: var(--var-blueText);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
