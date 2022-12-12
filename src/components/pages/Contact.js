@@ -1,6 +1,5 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import React from 'react';
-import { toast } from 'react-toastify';
 
 
 export default function Contact() {
@@ -71,17 +70,20 @@ export default function Contact() {
   //   </div>
   // );
   const styles = {
-      form: {
-        marginLeft: "4.5rem",
-        marginRight: "4.5rem",
+      body: {
+        paddingTop: "1rem",
+        paddingLeft: "0.625rem"
       },
       content: {
-        marginTop: "4rem",
-        marginLeft: "1rem"
+        marginTop: "3rem",
+        marginLeft: "5rem"
+      },
+      title: {
+        paddingLeft: "4rem"
       }
     }
   return (
-    <section style={styles.form}>
+    <section style={styles.body}>
       <h1 style={styles.title}>Contact</h1>
       <section style={styles.content}>
         <p>Email: <a href='mailto:jia.liang.chen@ryerson.ca'>jia.liang.chen@ryerson.ca</a></p>
