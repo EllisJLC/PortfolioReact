@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Footer.css';
 
 const styles = {
   footer: {
@@ -28,7 +27,7 @@ const styles = {
 export default function Footer() {
   return (
     <footer style={styles.footer} className='text-center text-lg-start' id='footerSection'>
-      <h4 style={styles.label1}>Made using React by a potato</h4>
+      <h4 style={styles.label1}>Jia Liang {"(Ellison)"} Chen</h4>
       <h4 style={styles.label2}>
         <a href='https://github.com/EllisJLC' style={styles.link} target="_blank"><i className='fa fa-github'></i></a> 
         <a href='https://www.linkedin.com/in/jia-liang-ellison-chen/' style={styles.link} target="_blank"><i className='fa fa-linkedin'></i></a> 

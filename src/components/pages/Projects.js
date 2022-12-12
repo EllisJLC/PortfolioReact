@@ -7,7 +7,7 @@ import weather from '../../assets/Weather.png';
 import css_sheet from '../../assets/CSS_Sheet.png';
 import pwgen from '../../assets/PWGen.png';
 
-const styles = {
+const styles = { // will need css styling for hover effects
   label: {
     textAlign: "center",
     display: "flex",
@@ -71,7 +71,7 @@ export default function Projects() {
       <section id='projectList'>
         {/* JS Projects Display */}
         { JSProjects.map((project) => (
-          <div style={styles.label} key={project.name}>
+          <div style={styles.label} key={project.name} className="project">
             <p>{project.name}</p>
             <a href={project.link} target="_blank" rel="noreferrer">
               <img src={project.preview} className="preview" alt={"Preview of "+project.name}/>

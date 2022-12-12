@@ -1,12 +1,27 @@
 import React from 'react';
-import '../../styles/Resume.css'
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/Resume.pdf';
 
 export default function Resume() {
+  const styles = {
+    title: {
+      paddingLeft: "4rem"
+    },
+    body: {
+      paddingTop: "1rem",
+      paddingLeft: "0.625rem"
+    },
+    resumeList: {
+      marginLeft: "5rem"
+    },
+    downloadLink: {
+      marginLeft: "4rem",
+      marginTop: "1.5rem"
+    }
+  }
   return (
-    <section id='resume1' >
-      <h1 className='titleLabel2'>Resume - Key Skills</h1>
-      <ul className='resumeText'>
+    <section style={styles.body} >
+      <h1 style={styles.title}>Resume - Key Skills</h1>
+      <ul style={styles.resumeList}>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -17,7 +32,7 @@ export default function Resume() {
         <li>SQL</li>
         <li>MERN Stack: MongoDb, Express.js, React, Node.js</li>
       </ul>
-      <p className='resumeText'>Download my full resume <a href={resume} download>here</a>!</p>
+      <p style={styles.downloadLink}>Download my full resume <a href={resume} download>here</a>!</p>
     </section>
   );
 }
