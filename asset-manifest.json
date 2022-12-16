@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/PortfolioReact/static/css/main.0f4336aa.css",
-    "main.js": "/PortfolioReact/static/js/main.f55a5976.js",
+    "main.js": "/PortfolioReact/static/js/main.c06217a6.js",
     "static/media/Pet.png": "/PortfolioReact/static/media/Pet.bc3c93734198e31eac05.png",
     "static/media/News_Agg.png": "/PortfolioReact/static/media/News_Agg.cbd58e32f4de22515bea.png",
     "static/media/CSS_Sheet.png": "/PortfolioReact/static/media/CSS_Sheet.0749b013ba01fa6e5853.png",
     "static/media/Portrait.png": "/PortfolioReact/static/media/Portrait.1e8c18b62cf9487ecfcd.png",
     "static/media/Swift_Bank.png": "/PortfolioReact/static/media/Swift_Bank.fc5c31d8a38ab9dab75c.png",
-    "static/media/Resume.pdf": "/PortfolioReact/static/media/Resume.620ed59289aaf13a6318.pdf",
+    "static/media/Resume.pdf": "/PortfolioReact/static/media/Resume.0827366bb7ed7a784ba5.pdf",
     "static/media/Weather.png": "/PortfolioReact/static/media/Weather.951b84ac4b0570fbdeb4.png",
     "static/media/PWGen.png": "/PortfolioReact/static/media/PWGen.6df5b2f1258728994dac.png",
     "index.html": "/PortfolioReact/index.html",
     "main.0f4336aa.css.map": "/PortfolioReact/static/css/main.0f4336aa.css.map",
-    "main.f55a5976.js.map": "/PortfolioReact/static/js/main.f55a5976.js.map"
+    "main.c06217a6.js.map": "/PortfolioReact/static/js/main.c06217a6.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4336aa.css",
-    "static/js/main.f55a5976.js"
+    "static/js/main.c06217a6.js"
   ]
 }
