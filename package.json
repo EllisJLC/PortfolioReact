@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ellisjlc.github.io/Portfolio2/",
+  "homepage": "https://ellisjlc.github.io/PortfolioReact/",
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
     "@testing-library/jest-dom": "^5.16.5",
