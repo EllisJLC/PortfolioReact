@@ -44,6 +44,7 @@ export default function About() {
         <br/><br/>
         Open to new things to do!
       </p>
+      <br/>
     </div>
   );
 }
