@@ -14,7 +14,7 @@ A portfolio made in React to show off programming capabilities.
 
 ## Installation 
 
-Clone repository from https://github.com/EllisJLC/Portfolio2.
+Clone repository from https://github.com/EllisJLC/PortfolioReact.
 
 Open the file directory and run command `npm install` to install necessary node modules.
 
