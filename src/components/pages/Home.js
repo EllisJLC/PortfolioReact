@@ -5,15 +5,16 @@ import image from '../../assets/Portrait.png'
 
 const styles = {
   mainHeader: {
-    fontSize: "7rem"
+    fontSize: "5rem"
   },
   secondaryHeader: {
-    fontSize: "3.75rem",
+    fontSize: "2rem",
   },
   portrait: {
-    paddingTop: "9.375rem",
-    maxWidth: "18.75rem",
-    maxHeight: "18.75rem",
+    paddingTop: "1rem",
+    maxWidth: "30rem",
+    maxHeight: "30rem",
+    paddingBottom: "2rem"
   }
 }
 
