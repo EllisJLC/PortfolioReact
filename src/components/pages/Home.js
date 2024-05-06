@@ -20,15 +20,15 @@ const styles = {
 
 export default function Home() {
   return (
-    <section>
+    <section className='displayBody'>
     <div className="container row">
-        <div className="col-9">
+        <div className="col-6">
           <h1 id='mainLabel1' style={styles.mainHeader} className='titleLabel'>Jia Liang Chen</h1>
           <h3 id='mainLabel2' style={styles.secondaryHeader}>Digital artist</h3>
           <h3 id='mainLabel3' style={styles.secondaryHeader}>Game Enthusiast</h3>
           <h3 id='mainLabel4' style={styles.secondaryHeader}>Web Developer</h3>
         </div>
-        <div className="col-md-auto justify-content-center">
+        <div className="col-4 justify-content-right">
           <img src={image} alt='Portrait' style={styles.portrait}/>
         </div>
       </div>

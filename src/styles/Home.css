@@ -12,6 +12,10 @@
   font-family: "Poiret One", Georgia, 'Times New Roman', Times, serif;
 }
 
+.displayBody {
+  display:flex
+}
+
 h3 {
   font-size: 4.375rem;
 }
