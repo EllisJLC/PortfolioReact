@@ -5,7 +5,7 @@ import pet from '../../assets/Pet.png';
 import swift_bank from '../../assets/Swift_Bank.png';
 import weather from '../../assets/Weather.png';
 import css_sheet from '../../assets/CSS_Sheet.png';
-import pwgen from '../../assets/PWGen.png';
+import Galaxy from '../../assets/Galaxy.png';
 
 const styles = { // will need css styling for hover effects
   label: {
@@ -23,46 +23,32 @@ export default function Projects() {
   const JSProjects = [
     // Project 1
     {
+      name: "Galaxy Generator (requires Vercel Login)",
+      link: 'https://3js-galaxy-generator-gjgnlll9g-ellisons-projects.vercel.app/',
+      preview: Galaxy,
+      githubLink: "https://github.com/EllisJLC/3js_GalaxyGenerator"
+    },
+    // Project 2
+    {
       name: "News Aggregator",
       link: 'https://honsumal.github.io/news-headline-aggregator/',
       preview: news_agg,
       githubLink: "https://github.com/Honsumal/news-headline-aggregator"
     },
-    // Project 2
-    {
-      name: "Banking App",
-      link: 'https://petplace2141.herokuapp.com/',
-      preview: swift_bank,
-      githubLink: "https://github.com/pav1593/swift-bank"
-    },
     // Project 3
-    {
-      name: "Pet Adoption Site",
-      link: 'https://github.com/pav1593/swift-bank',
-      preview: pet,
-      githubLink: "https://github.com/Favour01216/Adoption-site"
-    },
-    // Project 4
     {
       name: "Weather Forecast App",
       link: 'https://ellisjlc.github.io/Weather_Forecast/',
       preview: weather,
       githubLink: "https://github.com/EllisJLC/Weather_Forecast"
     },
-    // Project 5
+    // Project 4
     {
       name: "CSS Cheatsheet",
       link: 'https://ellisjlc.github.io/CSS_Guide/',
       preview: css_sheet,
       githubLink: "https://github.com/EllisJLC/CSS_Guide"
-    },
-    // Project 6
-    {
-      name: "Password Generator",
-      link: 'https://ellisjlc.github.io/Password_Generator/',
-      preview: pwgen,
-      githubLink: "https://github.com/EllisJLC/Password_Generator"
-    }
+    },    
   ]
 
   return (
